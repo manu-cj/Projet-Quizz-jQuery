@@ -21,6 +21,34 @@ body {
     background-color: #e39e80;
 }
 
+#quest2 {
+    display: none;
+}
+#quest3 {
+    display: none;
+}
+#quest4 {
+    display: none;
+}
+#quest5 {
+    display: none;
+}
+#quest6 {
+    display: none;
+}
+#quest7 {
+    display: none;
+}
+#quest8 {
+    display: none;
+}
+#quest9 {
+    display: none;
+}
+#quest10 {
+    display: none;
+}
+
 p {
     margin: 20px;
 }
