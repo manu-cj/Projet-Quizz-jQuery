@@ -13,7 +13,7 @@ body {
 }
 #game {
     width: 40%;
-    height: 15em;
+    height: 20em;
 }
 
 .questions {
@@ -27,14 +27,21 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    align-content: center;
 }
 
 input {
     margin: 5px;
 }
 
+button {
+    padding: 10px;
+    border-radius: 5px;
+}
+
 .reponse {
     width: 100%;
+    text-align: center;
 }
 
 #quest2 {
