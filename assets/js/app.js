@@ -162,7 +162,7 @@ button10.click(function () {
         button10.remove();
         score++
         $('#quest10').fadeOut(1000);
-        $('#score').html('vous avez' + score + 'bonnes réponses');
+        $('#score').html('vous avez ' + ' ' + score + ' ' + ' bonnes réponses');
     }
     else {
         button10.parent('div').css('border-color', 'red');
