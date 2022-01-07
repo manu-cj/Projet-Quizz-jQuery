@@ -21,6 +21,7 @@ button.click(function () {
         $('#quest1').fadeOut(1000);
     }
     else {
+        button.parent('div').css('border-color', 'red');
         $('#quest2').css('display', 'flex');
         $('#quest1').fadeOut(1000);
         button.remove();
@@ -36,6 +37,7 @@ button2.click(function () {
         $('#quest2').fadeOut(1000);
     }
     else {
+        button2.parent('div').css('border-color', 'red');
         $('#quest3').css('display', 'flex');
         $('#quest2').fadeOut(1000);
         button2.remove();
@@ -51,6 +53,7 @@ button3.click(function () {
         $('#quest3').fadeOut(1000);
     }
     else {
+        button3.parent('div').css('border-color', 'red');
         $('#quest4').css('display', 'flex');
         button3.remove();
         $('#quest3').fadeOut(1000);
@@ -66,6 +69,7 @@ button4.click(function () {
         $('#quest4').fadeOut(1000);
     }
     else {
+        button4.parent('div').css('border-color', 'red');
         $('#quest5').css('display', 'flex');
         button4.remove();
         $('#quest4').fadeOut(1000);
@@ -81,6 +85,7 @@ button5.click(function () {
         $('#quest5').fadeOut(1000);
     }
     else {
+        button5.parent('div').css('border-color', 'red');
         $('#quest6').css('display', 'flex');
         button5.remove();
         $('#quest5').fadeOut(1000);
@@ -96,6 +101,7 @@ button6.click(function () {
         $('#quest6').fadeOut(1000);
     }
     else {
+        button6.parent('div').css('border-color', 'red');
         $('#quest7').css('display', 'flex');
         button6.remove();
         $('#quest6').fadeOut(1000);
@@ -111,6 +117,7 @@ button7.click(function () {
         $('#quest7').fadeOut(1000);
     }
     else {
+        button7.parent('div').css('border-color', 'red');
         $('#quest8').css('display', 'flex');
         button7.remove();
         $('#quest7').fadeOut(1000);
@@ -126,6 +133,7 @@ button8.click(function () {
         $('#quest8').fadeOut(1000);
     }
     else {
+        button8.parent('div').css('border-color', 'red');
         $('#quest9').css('display', 'flex');
         button8.remove();
         $('#quest8').fadeOut(1000);
@@ -141,6 +149,7 @@ button9.click(function () {
         $('#quest9').fadeOut(1000);
     }
     else {
+        button9.parent('div').css('border-color', 'red');
         $('#quest10').css('display', 'flex');
         button9.remove();
         $('#quest9').fadeOut(1000);
@@ -156,8 +165,11 @@ button10.click(function () {
         $('#score').html('vous avez' + score + 'bonnes réponses');
     }
     else {
+        button10.parent('div').css('border-color', 'red');
+        button10.parent('div').css('border-color', 'red');
         button10.remove();
         $('#quest10').fadeOut(1000);
         $('#score').html('vous avez ' + score + ' bonnes réponses');
+
     }
 })
