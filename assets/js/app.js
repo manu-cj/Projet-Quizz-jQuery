@@ -169,7 +169,7 @@ button10.click(function () {
         button10.parent('div').css('border-color', 'red');
         button10.remove();
         $('#quest10').fadeOut(1000);
-        $('#score').html('vous avez ' + score + ' bonnes réponses');
+        $('#score').html('vous avez ' + ' ' + score + ' ' + ' bonnes réponses');
 
     }
 })
